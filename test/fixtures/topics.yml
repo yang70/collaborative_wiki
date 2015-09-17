@@ -1,10 +1,10 @@
 # Read about fixtures at
 # http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
-one:
-  title: MyString
-  body: MyString
+topic1:
+  title: Title One
+  body: Fixture topic body one
 
-two:
-  title: MyString
-  body: MyString
+topic2:
+  title: Title Two
+  body: Fixture topic body two
