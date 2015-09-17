@@ -1,0 +1,13 @@
+<h1>List of users</h1>
+
+<table>
+  <tr>
+    <th>User</th>
+    <th>Link</th>
+  </tr>
+<% @authors.each do |author| %>
+  <tr>
+    <td><%= author.email %></td>
+    <td><%= link_to 'View', author_path(author) %></td>
+  </tr>
+<% end %>

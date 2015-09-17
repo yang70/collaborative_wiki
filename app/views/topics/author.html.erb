@@ -1,0 +1,16 @@
+<h1><strong>User: </strong><%= @author.email %></h1>
+
+<p><strong>List of topics <%= @author.email %> has contributed to</strong></p>
+
+<table>
+  <tr>
+    <th>Topic Title</th>
+    <th>Link</th>
+  </tr>
+  <% @author.topics.each do |topic| %>
+    <tr>
+      <td><%= topic.title %></td>
+      <td><%= link_to 'View', topic %></td>
+    </tr>
+  <% end %>
+</table>
