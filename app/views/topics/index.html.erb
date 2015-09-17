@@ -1,0 +1,19 @@
+<h1>Welcome to the Fly Fishing Info Wiki!</h1>
+<h2>A user created/maintained resource for anything related to fly fishing</h2>
+
+<% if current_user.present? %>
+  <%= link_to 'Create new topic', new_topic_path %>
+<% end %>
+
+<table>
+  <tr>
+    <th>Topic</th>
+    <th>Link</th>
+  </tr>
+  <% @topics.each do |topic| %>
+    <tr>
+      <td><%= topic.title %></td>
+      <td><%= link_to 'View', topic %></td>
+    </tr>
+  <% end %>
+</table>

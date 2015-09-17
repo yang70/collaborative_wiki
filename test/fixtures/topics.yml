@@ -1,0 +1,10 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+topic1:
+  title: Title One
+  body: Fixture topic body one
+
+topic2:
+  title: Title Two
+  body: Fixture topic body two
