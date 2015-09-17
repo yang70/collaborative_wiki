@@ -8,7 +8,7 @@ By [Matthew Yang](http://www.matthewgyang.com).
 
 This application was created in order to practice the `has_and_belongs_to_many` database association.  This was accomplished by creating an application that tracks topic pages that have a title and body.  These pages can be edited by users.  When a topic is edited, the user has that article associated to them, and therefore they are associated with that article.
 
-User login was implemented with the [Devise](https://github.com/plataformatec/devise).
+User login was implemented with the [Devise](https://github.com/plataformatec/devise) gem.
 
 Devise implemented the `users` resource, and I created a `topics` resource with corresponding controller and views.
 
